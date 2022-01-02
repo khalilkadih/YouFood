@@ -1,0 +1,384 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+body{
+  background-image: url(image/back.jpg);
+  background-size: 100%;
+  background-size: cover;   
+  background-repeat: no-repeat;
+}
+header{
+  margin-top: 1%;
+}
+#logo img{
+  float: left;
+  width: 13%;
+  margin-left: 3%;
+  background: #ffffff00;
+}
+.welcom{
+  padding-top: 19px;
+  padding-left: 10%;
+  font-size:  large;
+  color: white;
+}
+.nr{
+    padding-left: 10%;
+    font-size:  x-large;
+    color: white;
+    font-weight: bold;
+}
+.sidebar {
+  margin-top: 2%;
+  margin-left: 2%;
+  position: fixed;
+  width:15%;
+  height: 87%;
+  background-color: #2D53DA;
+  border-radius: 10px;
+  font-weight: bold;
+}
+#menu{  
+  border-radius: 5px;
+  background-color: white; 
+  color: black;
+  text-decoration: none;
+}
+.sidenav ul a{
+  display: block;
+  color:white;
+  margin-top: 10%;
+  margin-left: 5%;
+  width: 90%;
+  line-height: 35px;
+  text-align: center;
+  text-decoration: none;
+  
+}
+.sidenav ul li:hover a{ 
+  color: black;
+  border-radius: 5px;
+  background-color: white;
+} 
+
+.cantact{
+  width: 90%;
+  background-color: #3E65F2;
+  margin-top: 95%;
+  text-align: center;
+  padding-top: 3%;
+  margin-left: 5%;
+  margin-bottom: 4%;
+  border-radius: 10px;
+  color: white;
+}
+.cantact button{
+  width: 85%;
+  height: 100%;
+  margin-top: 10%;
+ margin-bottom: 5%;
+ padding: 5%;
+ background-color: #1DCEF5;
+ font-size: large;
+ color: white;
+ border-radius: 5px;
+ border: none;
+}
+.platday{
+  display: flex;
+  flex-direction: row;
+}
+.haut{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-left: 18%;
+  margin-top: 1%;
+}
+#toda{
+ font-size: x-large;
+}
+.recherche{
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: center; 
+  margin-right: 2%;
+}
+.recherche input{
+  width: 50%;
+  height: 30px;
+  margin-right: 4%;
+}
+.recherche img{
+  width: 3%;
+}
+#poison{
+  padding-top: 2%;
+  padding-bottom: 2%;
+  padding-left: 7%;
+}
+.plat1 img{
+  width: 85%;
+  height: 180px;
+  border-radius: 10px;
+}
+.plat{
+  width: 25%;
+  background-color: white;
+  border-radius: 10px;
+  margin-top: 1%;
+}
+.plat1{ 
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+#sefee{
+  padding-top: 3%;
+  display: flex;
+  flex-direction:row;
+  justify-content: space-between;
+  padding-left: 7%;
+  padding-right: 7%;
+  padding-bottom: 2%;
+}
+#sefee button{
+  width: 30%;
+  color:#476BEE;
+  border: solid 2px #476BEE;
+  border-radius: 5px;
+}
+#poulet{
+  padding-top: 2%;
+  padding-bottom: 2%;
+  padding-left: 8%;
+}
+.plat2 img{
+  width: 85%;
+  height: 180px;
+  border-radius: 10px;
+}
+.platb{
+  width: 25%;
+  background-color: white;
+  border-radius: 10px;
+  margin-top: 1%;
+  margin-left: 2%;
+}
+.plat2{ 
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.menusem{
+  display: flex;
+  flex-direction: column;
+  background-color: #1DCEF5;
+  margin-top: 1%;
+  border-radius: 10px;
+  width: 52%;
+ 
+}
+.day{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  color:white;
+  padding-left: 3%;
+  padding-right: 3%;
+  padding-top: 1%;
+}
+.imgday{
+  padding-top: 1%;
+  display: flex;
+  flex-direction: row;
+  padding-bottom: 2%;
+}
+.monday { 
+  width: 18%;
+  height: 160px;
+  background-color: white;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  margin-left: 3%;
+
+}
+.monday img{
+  width:90%;
+  height: 45%;
+  border-radius: 10px;
+}
+.tuesday{
+  width: 18%;
+  height: 160px;
+  background-color: white;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  margin-left: 1%;
+}
+.tuesday img{
+  width:90%;
+  height: 45%;
+  border-radius: 10px;;
+}
+.wednesday{
+  width: 18%;
+  height: 160px;
+  background-color: white;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  margin-left: 1%;
+}
+.wednesday img{
+  width:90%;
+  height: 45%;
+  border-radius: 10px;
+}
+.Thursday{
+  width: 18%;
+  height: 160px;
+  background-color: white;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  margin-left: 1%;
+}
+.Thursday img{
+  width:90%;
+  height: 45%;
+  border-radius: 10px;
+}
+.Friday{
+  width: 18%;
+  height: 160px;
+  background-color: white;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  margin-left: 1%;
+}
+.Friday img{
+  width:90%;
+  height: 45%;
+  border-radius: 10px;
+}
+.utilusateur{
+display: flex;
+flex-direction: row;
+justify-content: flex-end;
+align-items: center;
+margin-right: 2%;
+}
+.utilusateur img{
+  width: 3%;
+}
+.utilu{
+  margin-right: 2%;
+}
+.utilusateur p{
+  margin-right: 16%;
+  font-size: large;
+  font-weight: bold;
+}
+.ma{
+  position: fixed;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+.section{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-left: 36%;
+}
+.feed{
+  margin-right:2% ;
+  margin-top: 2%;
+  margin-left: 55%;
+  background-color: white;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+}
+.student{
+  padding-top: 4%;
+  padding-left: 3%;
+  font-size: large;
+  font-weight: bold;
+}
+.image1{
+  width: 50px;
+  height: 100%;
+  border-radius: 10px;
+}
+.student1{
+  padding-left: 4%;
+  padding-top: 6%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.star{
+  padding-left: 7%;
+}
+.image2{
+  width: 50%;
+}
+.image3{
+  width: 15%;
+  margin-left: 65%;
+}
+.seemore{
+  padding-top: 4%;
+  text-align: center;
+  padding-bottom: 3%;
+}
+.seemore button{
+  width: 30%;
+  color:#476BEE;
+  border: solid 2px #476BEE;
+  border-radius: 5px;
+  padding-top: 1%;
+  padding-bottom: 1%;
+}
+#rectangle{
+  background-color: white;
+  border-radius: 10px;
+  width: 43%;
+  height: 34%;
+  margin-left: 55%;
+  margin-top: 2%;
+}
+#sefee button:hover{
+  cursor: pointer;
+  color: white;
+  background-color: rgb(75, 77, 78);
+  border: none;
+}
+button:hover {
+  cursor: pointer;
+  color: white;
+  background-color: rgb(75, 77, 78);
+  border: none;
+}
