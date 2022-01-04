@@ -8,11 +8,29 @@
 }
 .recomendation{
     border-radius: 0.6vw;
-    width: 19vw;
-    height: 5vw;
+    width: 22vw;
+    height: 2vw;
     background-color: rgb(209, 209, 209);
-    margin: 0 2vw;
+    margin: -3vw 1vw;
 }
+.submit{
+    margin: 1vw 8vw;
+    width: 9vw;
+    height: 2.4vw;
+    border-radius: 0.5vw;
+    color: #476BEE;
+    border: 3px solid #476BEE;
+    font-size: 1.1vw;
+    font-weight: bold;
+    transition: 0.7s;
+}
+
+.submit:hover{
+    transition: 0.4s;
+    background-color: #2D53DA;
+    color: #F2F5FD;
+}
+  
 
 body{
     background-image: url("/images/back.jpg");
