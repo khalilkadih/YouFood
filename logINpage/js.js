@@ -1,8 +1,3 @@
-
-
-
-
-
 function openfff(){
     if(document.getElementById("in").value == "user")
     {
