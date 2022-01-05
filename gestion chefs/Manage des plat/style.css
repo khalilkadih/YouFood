@@ -140,9 +140,9 @@
     padding-top: 1%;
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
+    justify-content: space-evenly;
    }
-   .plat1 input{
+   .plat1et2 input{
     width: 100%;
     border: solid #707070 1px;
     border-radius: 5px ;
@@ -155,7 +155,7 @@
     background-color: #D8D8D8;
   }
    .choosefile{
-    width: 260px;
+    width: 250px;
     height: 25px;
     display: inline-block;
     align-self: center;
@@ -168,6 +168,7 @@
   }
   .line{
     border-left: 2px solid #1DCEF5;
+    
   }
   .save{
     text-align: center;
