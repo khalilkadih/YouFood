@@ -1,0 +1,362 @@
+<!DOCTYPE html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="admin_manage_users.css">
+    <title>Youfood</title>
+</head>
+<body> 
+    
+    <div class="head">
+        <img class="img1" id="img1" src="images/yf.png" alt="youfood">
+        <button class="bu105" id="bu105" onclick="mobile_menu_open()">
+            <img class="img105" id="img105" src="images/tabs.png" alt="tabs">
+        </button>
+        
+        <button class="settings_" onclick="open_tabs()" id="settings_">
+            <img class="img3" src="images/settings.png" alt="">
+        </button>
+        <p class="p4" id="p4">
+            Mourad
+        </p>
+        <img class="img4" src="images/staff2.png" alt="a girl">
+    </div>
+    
+    <div class="body_">
+        <div class="right_tab">
+            <button class="notifications" id="notifications">
+                <img class="img2" src="images/not.png" alt="">
+            </button>
+            <div class="for_inp">
+                <input class="input1" id="input1">
+            </div>
+            <br>
+            <div class="tab"  id="id1">
+                <div class="div_rate">
+                    <P class="p14" id="p14">
+                        Add new user
+                    </P>
+                </div>
+                <div class="div_rate">
+                    <P class="p101" id="p101">
+                        Role
+                    </P>
+                    <select class="i301">
+                        <option value="chef">chef</option>
+                        <option value="student">student</option>
+                        <option value="staf">staff</option>
+                    </select>
+                </div>
+                <div class="div_rate">
+                    <P class="p101" id="p102">
+                        Full name
+                    </P>
+                    <input class="i301">
+
+                    </input>
+                </div>
+                <div class="div_rate">
+                    <P class="p101" id="p103">
+                        Email address
+                    </P>
+                    <input class="i301">
+
+                    </input>
+                </div>
+                <div class="div_rate">
+                    <P class="p101" id="p104">
+                        Phone number
+                    </P>
+                    <input class="i301">
+
+                    </input>
+                </div>
+                <div class="div_rate_0">
+                    <button class="show_more" id="show_more">
+                        Submit
+                    </button>
+                </div>
+            </div>
+            <br>
+            <div class="tab2" id="id2">
+
+            </div>
+        </div>
+        <div class="midle_tab">
+            <div class="tab5">
+                <p class="p5" id="p5">
+                    Manage users
+                </p>
+            </div>
+            <br>
+            <div class="tab3">
+                <button class="tablink" onclick="openPage('Home', this, '#2D53DA')" id="defaultOpen">Students</button>
+                <button class="tablink" onclick="openPage('News', this, '#2D53DA')">Chefs</button>
+                <button class="tablink" onclick="openPage('Contact', this, '#2D53DA')">Staffs</button>
+                <button class="tablink" onclick="openPage('About', this, '#2D53DA') " id="defaultOpen2">others</button>
+
+                <div id="Home" class="tabcontent">
+                    <div class="div_tabs" id="fafafa">
+                        <img src="images/girl.png" class="img_persons">
+                        <p class="p362">
+                            Noura ben
+                        </p>
+                        <button onclick="open_div()" class="b362">
+                            Manage user
+                        </button>
+                    </div>
+                    <div class="div_tabs">
+                        <img src="images/boy1.png" class="img_persons2">
+                        <p class="p362">
+                            Abderahim
+                        </p>
+                        <button class="b362">
+                            Manage user
+                        </button>
+                    </div>
+                    <div class="div_tabs">
+                        <img src="images/boy2.png" class="img_persons3">
+                        <p class="p362">
+                            Jamal
+                        </p>
+                        <button class="b362">
+                            Manage user
+                        </button>
+                    </div>
+                </div>
+
+                <div id="News" class="tabcontent">
+                    <div class="div_tabs" id="fafafa">
+                        <img src="images/chef1.png" class="img_persons2">
+                        <p class="p362">
+                            Ahmed 
+                        </p>
+                        <button class="b362">
+                            Manage user
+                        </button>
+                    </div>
+                    <div class="div_tabs">
+                        <img src="images/chef2.png" class="img_persons2">
+                        <p class="p362">
+                            Naima
+                        </p>
+                        <button class="b362">
+                            Manage user
+                        </button>
+                    </div>
+                </div>
+
+                <div id="Contact" class="tabcontent">
+                    <div class="div_tabs" id="fafafa">
+                        <img src="images/staff1.png" class="img_persons2">
+                        <p class="p362">
+                            Mourad
+                        </p>
+                        <button class="b362">
+                            Manage user
+                        </button>
+                    </div>
+                    <div class="div_tabs">
+                        <img src="images/staff2.png" class="img_persons2">
+                        <p class="p362">
+                            Oussama
+                        </p>
+                        <button class="b362">
+                            Manage user
+                        </button>
+                    </div>
+                </div>
+
+                <div id="About" class="tabcontent">
+                <h3>Coming soon ... XD</h3>
+                </div> 
+            </div>
+        </div>
+        <div class="left_tab" id="id3">
+            <p class="p1">
+                welcome,
+            </p>
+            <p class="p2">
+                Noura ben
+            </p>
+            
+            <div class="all_bu">
+                <form method="get" action="admin.html">
+                    <button id="bu2" class="bu1">
+                        Menu
+                    </button>
+                </form>
+                <button id="bu1" class="bu2">
+                    Manage users
+                </button>
+            </div>
+            <div class="bottom_little_tab_0">
+                <div class="bottom_little_tab" id="bottom_little_tab">
+                    <p class="p3">
+                        if you have any problems, please contact us.
+                    </p>
+                    <button class="bu4" id="bu4">
+                        Contact
+                    </button>
+                </div>
+            </div>
+        </div>
+        <div id="divt" class="menu_tab">
+            <button class="bu8" id="bu8" onclick="close_tab()">
+                <img src="images/x.png" class="img5">
+            </button>
+
+            <button class="bu5" id="bu5" onclick="dark()">
+                Dark mode
+            </button>
+
+            <button class="bu6" id="bu6" onclick="white()">
+                White mode
+            </button>
+
+            <button class="bu7" id="bu7">
+                Log out
+            </button>
+        </div>
+        <div class="mobile">
+            <div class="div8">
+                <input class="input2" id="input2">
+            </div>
+            
+            <br>
+            <p class="p201">
+                welcome,
+            </p>
+            <p class="p202">
+                Noura ben
+            </p>
+            <p class="p203">
+                here is today's plates
+            </p>
+
+            <div class="tab3">
+                
+            </div>
+            <div class="tab4" id="id4">
+                <div class="names">
+                    <p class="p100">Monday</p>
+                    <p class="p100">Tuesday</p>
+                    <p class="p100">Wednesday</p>
+                    <p class="p100">Thursday</p>
+                    <p class="p100">Friday</p>
+                </div>
+                <div class="images">
+                    <div class="all_dd" id="all_dd_1">
+                        <img class="food" src="images/filet.jpg">
+                        <img class="food" src="images/Blanc.jpg">
+                    </div>
+                    <div class="all_dd" id="all_dd_2">
+                        <img class="food" src="images/2_1.jpg">
+                        <img class="food" src="images/202.jpg">
+                        
+                    </div>
+                    <div class="all_dd" id="all_dd_3">
+                        <img class="food" src="images/3_1.jpg">
+                        <img class="food" src="images/3_2.jpg">
+                        
+                    </div>
+                    <div class="all_dd" id="all_dd_4">
+                        <img class="food" src="images/4.jpg">
+                        <img class="food" src="images/4_1.jpg">
+                        
+                    </div>
+                    <div class="all_dd" id="all_dd_5">
+                        <img class="food" src="images/friday1.jpg">
+                        <img class="food" src="images/friday2.jpg">
+                    </div>
+                </div>
+            </div>
+
+            <div class="black">
+                <p class="p206">
+                    if you have any problems, please contact us.
+                </p>
+                <button class="last_bu">
+                    Contact
+                </button>
+            </div>
+        </div>
+        <div class="mobile_menu_back" id="mobile_menu_back">
+            
+        </div>
+        <div class="mobile_menu" id="mobile_menu" >
+            <button class="bu8" id="bu8" onclick="mobile_menu_()">
+                <img src="images/x.png" class="img5">
+            </button>    
+            <div class="div_for_b">
+                <button class="bu5" id="bu5" onclick="dark()">
+                    Dark mode
+                </button>
+    
+                <button class="bu6" id="bu6" onclick="white()">
+                    White mode
+                </button>
+    
+                <button class="bu7" id="bu7">
+                    Log out
+                </button>
+            </div>  
+        </div>
+    </div>
+    <div class="block" id="block">
+
+    </div>
+    <div class="container" id="container">
+        <div class="c1">
+            <button class="bu9" id="bu9" onclick="close_div()">
+                <img src="images/x.png" class="img5">
+            </button>
+            
+            <div class="tabs13">
+                <button class="bu90">
+                    Noura ben
+                </button>
+                <p class="p30">
+                    Edit
+                </p>
+            </div>
+            <div class="tabs13">
+                <button class="bu90">
+                    Noura_ben@outlook.com
+                </button>
+                <p class="p30">
+                    Edit
+                </p>
+            </div>
+            <div class="tabs13">
+                <button class="bu90">
+                    +314354546363
+                </button>
+                <p class="p30">
+                    Edit
+                </p>
+            </div>
+            <div class="tabs13">
+                <button class="bu90">
+                    norway edge 34000
+                </button>
+                <p class="p30">
+                    Edit
+                </p>
+            </div>
+            <img src="images/girl.png" class="img_persons67">
+            <p class="p31">
+                Noura ben
+            </p>
+            <br>
+            <p class="p32">
+                Online
+            </p>
+            <div class="divss">
+
+            </div>
+
+        </div>
+    </div>
+    <script src="admin_manage_users.js"> </script>
+</body>
+</html>
