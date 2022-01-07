@@ -473,14 +473,48 @@ button{
 }
 
 .tab4{
-    width: 51.8vw;
-    height: 36.7vh;
-    margin: auto;
+    
+    width: 52vw ;
+    height: 36vh;
     border-radius: 0.7vw;
     background-color: white;
     position: absolute;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 5vw 0;
+}
+.center_div{
+    width: 52vw;
+    height: calc(66vh - 30vh);
+    position:relative;
+    border: 1px solid black;
+    
+}
+.key{
+    position: absolute;
+    bottom: 1rem;
+    right: 1rem;
+    font-size: 1.1rem;
+   
+
+
 }
 
+.center_div span ::after{
+content: "";
+display: inline-block;
+width: 0.6rem;
+height: 0.6rem;
+border-radius: 50%;
+font-weight: 700;
+background: currentColor;
+}
+
+.center_div h2{
+    padding: 20px 0 20px 20px;
+}
 .tab5{
     width: 51.8vw;
     transition: 2s;
@@ -504,7 +538,7 @@ button{
 
 .plate1{
     width: 25vw;
-    height: 100%;
+    height: 75%;
     background-color: #F2F5FD;
     border-radius: 0.7vw;
     transition: 2s;
@@ -512,17 +546,19 @@ button{
     display: flex;
     align-items: center;
     position: relative;
+    margin: 5vw 0;
 }
 
 .plate2{
     width: 25vw;
-    height: 100%;
+    height: 75%;
     background-color: #F2F5FD;
     border-radius: 0.7vw;
     transition: 2s;
     flex-direction: column;
     display: flex;
     align-items: center;
+    margin: 5vw 0;
 }
 
 .menu_tab{
@@ -878,6 +914,7 @@ button{
         width: 100%;
         height: 30vw;
         margin-top: 2vw;
+        
     }
 
     .names{
