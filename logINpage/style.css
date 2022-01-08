@@ -1,0 +1,172 @@
+body
+{
+    background: url(images/back.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+main
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 96vh;
+}
+.container
+{
+    width: 74vw;
+    height: 35vw;
+    background-color: white;
+    display: flex;
+    border-radius: 1vw;
+}
+.image 
+{
+    width: 50%;
+    height: 100%;
+}
+.image img
+{
+    width: 100%;
+    height: 100%;
+    border-top-left-radius: 1vw;
+    border-bottom-left-radius: 1vw;
+
+}
+.formulaire
+{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    font-size: 1.5vw;
+}
+.logo
+{
+    max-width: 8vw;
+    margin-top: 1vw;
+}
+form
+{
+    display: flex;
+    flex-direction: column;
+}
+h3
+{
+    font-size: 1.5vw;
+}
+input
+{
+    width: 25vw;
+    height: 2vw;
+    border: 0.106vw solid;
+    border-radius: 0.3vw;
+}
+label
+{
+    color: #757474;
+    margin-top: 1vw;
+}
+.forgoten
+{
+    color: #0900FF;
+    text-decoration: none;
+}
+.forgoten:hover
+{
+    text-decoration: underline;
+}
+button
+{
+    width: 8vw;
+    height: 2.3vw;
+    margin-top: 2vw;
+    color: #0900FF;
+    background-color: white;
+    border: 0.2vw solid #0900FF;
+    border-radius: 1vw;
+    font-size: 1.2vw;
+}
+button:hover
+{
+    color: white;
+    background-color: #0900FF;
+}
+#powered
+{
+    color: #949494;
+    margin-top: 2.5vw;
+    font-size: 1.3vw;
+}
+@media screen and (max-width : 770px)
+{
+    body
+    {
+        background-image: none;
+        margin: 0;
+    }
+    main
+    {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100vw;
+        height: 96vh;
+    }
+    .container
+    {
+        width: 100%;
+        height: 100%;
+        background-color: white;
+        display: flex;
+    }
+    .image 
+    {
+        display: none;
+    }
+    .formulaire
+    {
+        width: 100%;
+        height: 100%;
+        font-size: 3vw;
+    }
+    .logo 
+    {
+        max-width: 20vw;
+        margin-top: 5vw;
+    }
+    h3
+    {
+        font-size: 5vw;
+    }
+    input
+    {
+        width: 70vw;
+        height: 5vw;
+        border: 0.2vw solid;
+        border-radius: 0.9vw;
+    }
+    button
+    {
+        width: 20vw;
+        height: 6vw;
+        margin-top: 2vw;
+        border: 0.3vw solid;
+        border-radius: 2vw;
+        font-size: 3vw;
+    }
+    #powered
+    {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: white;     
+        font-size: 2.5vw;
+        background-color: black;
+        position: absolute;
+        bottom: 0;
+        width: 100vw;
+        height: 10vw;
+    }
+}
