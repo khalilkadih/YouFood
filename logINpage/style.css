@@ -18,6 +18,7 @@ main
     height: 35vw;
     background-color: white;
     display: flex;
+    border-radius: 1vw;
 }
 .image 
 {
@@ -28,6 +29,9 @@ main
 {
     width: 100%;
     height: 100%;
+    border-top-left-radius: 1vw;
+    border-bottom-left-radius: 1vw;
+
 }
 .formulaire
 {
@@ -157,7 +161,7 @@ button:hover
         display: flex;
         justify-content: center;
         align-items: center;
-        color: white;     
+        color: white;
         font-size: 2.5vw;
         background-color: black;
         position: absolute;
