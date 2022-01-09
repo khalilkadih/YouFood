@@ -532,6 +532,10 @@ margin: 0 0.5rem;
     margin:auto;
 }
 
+.rate{
+    width: 24vw;
+    height: 37vh;
+}
 .midle_tab{
     width: 55.4vw;
     height: 100%;
@@ -675,9 +679,13 @@ margin: 0 0.5rem;
 .recomendation{
     border-radius: 0.6vw;
     width: 22vw;
-    height: 2vw;
+    height: 6vw;
     background-color: rgb(209, 209, 209);
-    margin: -3vw 1vw;
+    margin: -1vw 1vw;
+}
+textarea{
+    margin: -2vw 1vw;
+    background-color: #F2F5FD;
 }
 .submit{
     margin: 1vw 8vw;
