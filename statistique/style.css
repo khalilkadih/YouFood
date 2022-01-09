@@ -488,32 +488,39 @@ button{
 .center_div{
     width: 52vw;
     height: calc(66vh - 30vh);
-    position:relative;
-    border: 1px solid black;
-    
+    position:relative;    
 }
 .key{
     position: absolute;
     bottom: 1rem;
     right: 1rem;
     font-size: 1.1rem;
-   
-
-
 }
 
-.center_div span ::after{
+.center_div span::after {
 content: "";
 display: inline-block;
 width: 0.6rem;
 height: 0.6rem;
-border-radius: 50%;
+border-radius: 25%;
 font-weight: 700;
 background: currentColor;
+margin: 0 0.5rem;
 }
-
+.pie-chart{
+    background: radial-gradient(circle closest-side , transparent 100%, #fff 0),conic-gradient(from 180deg,
+    
+    #1DCEF5 0,
+    #1DCEF5 69%,
+    #2D53DA 0,
+    #2D53DA 100%
+ 
+    );
+    
+     height: 19vh;
+ }
 .center_div h2{
-    padding: 20px 0 20px 20px;
+    padding: 2px 0 20px 20px;
 }
 .tab5{
     width: 51.8vw;
