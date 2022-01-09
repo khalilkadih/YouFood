@@ -18,7 +18,6 @@ main
     height: 35vw;
     background-color: white;
     display: flex;
-    border-radius: 1vw;
 }
 .image 
 {
@@ -29,9 +28,6 @@ main
 {
     width: 100%;
     height: 100%;
-    border-top-left-radius: 1vw;
-    border-bottom-left-radius: 1vw;
-
 }
 .formulaire
 {
