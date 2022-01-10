@@ -2,7 +2,7 @@ function CheckUser() {
 
     if (document.getElementById("in").value == "user") {
 
-        window.open("../YouFood-Badr/index.html");
+        window.open("../YouFood-Badr/user_menu.html");
     } else
     if (document.getElementById("in").value == "admin") {
         window.open("../admin/admin.html");
