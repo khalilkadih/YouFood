@@ -6,6 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
+    <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
     <title>YouFoud</title>
 </head>
 
@@ -33,8 +34,8 @@
         <div class="sidenav">
             <ul>
                 <li><a href="../Menu/index.html">Menu</a></li>
-                <li><a id="Manage" href="../Manage des plat/index.html">Manage plates</a></li>
-                <li><a href="../statistics/index.html">Statistics</a></li>
+                <li><a href="../Manage des plat/index.html">Manage plates</a></li>
+                <li><a id="menu" href="../statistics/index.html">statistic</a></li>
             </ul>
         </div>
         <div class="cantact">
@@ -44,93 +45,68 @@
     </div>
     <section class="haut">
         <div>
-            <p id="toda">Manage plates</p>
+            <p id="toda">Statistics</p>
+        </div>
+        <div class="weel">
+            <p id="txt1">Statistics </p>
         </div>
         <div class="recherche">
-            <input type="text" name="search" placeholder="Search..">
-            <img src="image/pngaaa.com-5607930.png" alt="">
+            <input type="text" placeholder="Search..">
+            <img src="image/pngaaa.com-5607930.png" alt="recherche">
         </div>
     </section>
     <section class="section">
         <section class="ma">
-            <section class="platday">
-                <article class="selecthaut">
-                    <div class="addplates">
-                        <p>Add new plates</p>
+            <section class="statistic">
+                <div class="titre">
+                    <p>Statistics of plats</p>
+                </div>
+                <div class="graph">
+                    <div class="stasticplat">
+                        <p class="stasticplat1">Statistics pla1</p><br>
+                        <p class="stasticplat2">Statistics plat2</p>
                     </div>
-                    <div class="select">
-                        <FORM>
-                            <SELECT name="nom" size="1">
-              <OPTION>Monday
-              <OPTION>Tuesday
-              <OPTION>Wednesday
-              <OPTION>Thursday
-              <OPTION>Friday
-              </SELECT>
-                        </FORM>
+                    <div>
+                        <div class="graphe">
+                            <div class="piechart">
+                                <p class="pours">26%</p>
+                                <p class="pours2">74%</p>
+                            </div>
+                        </div>
                     </div>
-                </article>
-                <article class="plat1et2">
-                    <div class="plat1">
-                        <form>
-                            <label for="Plates 1 name">Plates 1 name</label><br>
-                            <input type="text" name="Plates 1 name"><br>
-                            <label for="Plates 2 image">Plates 1 image</label><br>
-                            <label class="choosefile" for="upload">Insert file</label><br>
-                            <input type="file" id="upload" accept="image/png, image/jpeg" hidden/>
-                            <label for="Dercription">Description</label><br>
-                            <textarea id="description" name="description"></textarea>
-                        </form>
+                    <div class="units">
+                        <p>Plat 1 : 111 units</p><br>
+                        <p>Plat 2 : 39 units</p>
                     </div>
-                    <div class="line"> </div>
-                    <div class="hr">
-                        <hr>
-                    </div>
-                    <div class="plat2">
-                        <form>
-                            <label for="Plates 2 name">Plates 2 name</label><br>
-                            <input type="text" name="Plates 1 name"><br>
-                            <label for="Plates 2 image">Plates 2 image</label><br>
-                            <label class="choosefile" for="upload">Insert file</label><br>
-                            <input type="file" id="upload" accept="image/png, image/jpeg" hidden/>
-                            <label for="Dercription">Description</label><br>
-                            <textarea id="description" name="description"></textarea>
-                        </form>
-                    </div>
-                </article>
-                <article class="save">
-                    <button>save</button>
-                </article>
+                </div>
             </section>
             <section class="menusem">
-                <article class="day">
-                    <p>monday</p>
-                    <p>tuesday</p>
-                    <p>wednesday</p>
-                    <p>Thursday</p>
-                    <p>Friday</p>
+                <article class="statpla1">
+                    <div class="platratings">
+                        <p>Plat 1's ratings and reviews</p>
+                    </div>
+                    <div class="reveiws">
+                        <div class="imgtext">
+                            <p class="point">3.6</p>
+                            <img class="reviewsstar" src="image/3stars.png" alt="star">
+                        </div>
+                        <div>
+                            <img class="imgrev" src="image/3 (2).png" alt="reviews">
+                        </div>
+                    </div>
                 </article>
-                <article class="imgday">
-                    <div class="monday">
-                        <p></p>
-                        <img src="image/filet_de_poisson.jpg" alt="filet_de_poisson">
-                        <img src="image/Blanc_de_poulet.jpg" alt="Blanc de poulet">
+                <article class="statpla2">
+                    <div class="platratings">
+                        <p>Plat 2's ratings and reviews</p>
                     </div>
-                    <div class="tuesday">
-                        <img src="image/poisson-farci-au-four.jpg" alt="poisson-farci-au-four">
-                        <img src="image/Tajine-aux-pruneaux.jpg" alt="Tajine-aux-pruneaux">
-                    </div>
-                    <div class="wednesday">
-                        <img src="image/croquettes-de-poisson-au-four.jpg" alt="croquettes-de-poisson-au-four">
-                        <img src="image/blanc-de-poulet-farci-enroule-de-prosciutto--md-16908p21129.jpg" alt="blanc-de-poulet-farci-enroule-de-prosciutto">
-                    </div>
-                    <div class="Thursday">
-                        <img src="image/dws.jpg" alt="dws">
-                        <img src="image/boulette-poisson.jpg" alt="boulette-poisson">
-                    </div>
-                    <div class="Friday">
-                        <img src="image/couscous.jpg" alt="couscous">
-                        <img src="image/tajin poulet.jpg" alt="tajin poulet">
+                    <div class="reveiws">
+                        <div class="imgtext">
+                            <p class="point">4.1</p>
+                            <img class="reviewsstar" src="image/3stars.png" alt="star">
+                        </div>
+                        <div>
+                            <img class="imgrev" src="image/4.png" alt="reviews">
+                        </div>
                     </div>
                 </article>
             </section>
@@ -212,8 +188,8 @@
         <div class="sidenav">
             <ul>
                 <li><a href="../Menu/index.html">Menu</a></li>
-                <li><a id="Manage" href="../Manage des plat/index.html">Manage plates</a></li>
-                <li><a href="../statistics/index.html">Statistics</a></li>
+                <li><a href="../Manage des plat/index.html">Manage plates</a></li>
+                <li><a id="menu" href="../statistics/index.html">statistic</a></li>
             </ul>
         </div>
     </div>
